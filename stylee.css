@@ -1,0 +1,32 @@
+body, html{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: "arial", sans-serif;
+}
+header,footer{
+    background-color: #333;
+    color:white;
+    padding: 15px 20px;
+    text-align: center;
+}
+.contenedorgrande{
+    display:flex;
+    margin:20px;  
+}
+aside{
+    width: 20%;
+    background-color: #ccc;
+    padding: 20px;
+    box-sizing: border-box;
+}
+main{
+    flex:auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    box-sizing: border-box;
+}
+article{
+    margin-bottom: 20px;
+    background-color: azure;
+}
